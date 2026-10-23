@@ -1,0 +1,12 @@
+{
+  "name": "traderwai-charts",
+  "version": "1.0.0",
+  "description": "Live market charts, OHLC data and strategy backtests for forex, gold, indices, oil, futures and crypto. Read-only.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "traderwai-charts": {
+      "url": "https://mcp.traderwai.com/charts",
+      "type": "http"
+    }
+  }
+}

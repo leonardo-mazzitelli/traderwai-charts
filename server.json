@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.traderwai/charts",
+  "title": "TraderWAI Charts",
+  "description": "Read-only market charts, OHLC, backtests and a view of your connected broker accounts",
+  "version": "2.0.0",
+  "websiteUrl": "https://traderwai.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.traderwai.com/charts/v2"
+    }
+  ]
+}
